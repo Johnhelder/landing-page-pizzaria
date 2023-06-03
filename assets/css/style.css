@@ -30,3 +30,10 @@ html{
   padding-left: 30rem;
 }
 
+.logo{
+  width: 70px;
+  height: auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
