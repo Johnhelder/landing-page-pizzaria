@@ -40,12 +40,20 @@ html{
 
 .logo h3{
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 
 .logo img{
   width: 100%;
   height: 100%;
+}
+
+.content .list-menu{
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
 }
 
 .first-section{
