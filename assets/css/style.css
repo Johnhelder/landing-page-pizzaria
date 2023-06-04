@@ -56,6 +56,21 @@ html{
   justify-content: space-between;
 }
 
+.content .list-menu li a{
+ padding: 3rem 1rem 2rem 1rem;
+ color: #fff;
+ font-size: 1.8rem;
+ text-transform: uppercase;
+ font-weight: 500;
+ transition: all 200ms ease-in;
+}
+
+.content .list-menu li a:hover{
+  background-color: #333333;
+  border-bottom: 4px solid #ffc506;
+  color: #ffc506;
+}
+
 .first-section{
   height: 100vh;
   width: 100vw;
