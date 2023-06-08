@@ -106,3 +106,16 @@ html{
   text-transform: uppercase;
   margin-bottom: 3rem;
 }
+
+.btn button{
+  width: 230px;
+  height: 60px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #ffc506;
+  border-radius: 10px;
+  color: black;
+  font-weight: 700;
+  margin-top: 5rem;
+  margin-right: 15px;
+}
