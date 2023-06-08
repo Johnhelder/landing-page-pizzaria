@@ -117,5 +117,17 @@ html{
   color: black;
   font-weight: 700;
   margin-top: 5rem;
-  margin-right: 15px;
+  transition: all 400ms ease-in;
+}
+
+.btn button:hover{
+  border: 1px solid #ffc506;
+  background-color: transparent;
+  color: #ffc506;
+}
+
+.btn{
+ width: 480px;
+ display: flex;
+ justify-content: space-between;
 }
