@@ -98,3 +98,11 @@ html{
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
+
+.first-section h2{
+  color: rgb(177, 177, 177);
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
