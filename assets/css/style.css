@@ -156,3 +156,21 @@ html{
   display: flex;
   justify-content: space-between;
 }
+
+.conteudosobre{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudosobre h2{
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+
+.conteudosobre p{
+  text-align: center;
+  font-size: 1.8rem;
+  width: 600px;
+}
