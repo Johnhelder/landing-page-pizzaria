@@ -194,3 +194,14 @@ html{
   text-transform: uppercase;
   padding-top: 30px;
 }
+
+.itens-cardapio{
+  width: 80%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
