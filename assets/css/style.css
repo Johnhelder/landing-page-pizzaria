@@ -267,3 +267,21 @@ html{
   background-color: #5e5252;
   color: #fff;
 }
+
+.contatos{
+  width: 100%;
+  background-color: #1f1e1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  color: #fff;
+  padding-bottom: 4rem;
+}
+
+.contatos h3{
+  font-size: 6rem;
+  margin-bottom: 3rem;
+  
+}
