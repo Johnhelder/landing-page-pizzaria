@@ -278,10 +278,31 @@ html{
   font-size: 1.8rem;
   color: #fff;
   padding-bottom: 4rem;
+  padding-top: 50px;
 }
 
 .contatos h3{
   font-size: 6rem;
-  margin-bottom: 3rem;
-  
+  margin-bottom: 3rem;  
+}
+
+.contatos-secao{
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.contatos-secao i{
+  margin-right: 1rem;
+}
+
+.contatos-secao div{
+  cursor: pointer;
+  transition: all 200ms ease-in;
+  margin-bottom: 50px;
+}
+
+.contatos-secao div:hover{
+  color: #ffc506;  
 }
