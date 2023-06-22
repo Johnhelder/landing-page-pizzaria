@@ -334,5 +334,13 @@ footer{
     height: 16%;
     padding-left: 0px;
   }
+  
+  .sobre-nos img{
+    width: 600px;
+    margin-left: -2px;
+  }
 
+  .sobre-nos h2{
+    padding-top: 30px;
+  }
 }
