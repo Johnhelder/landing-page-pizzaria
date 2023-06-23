@@ -350,3 +350,18 @@ footer{
     font-size: 50%;
   }
 }
+
+@media(max-width: 768px){
+  html{
+    font-size: 45%
+  }
+  .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px;
+  }
+  .itens-cardapio{
+    grid-template-columns: repeat(2, minmax(50px, 350px));
+  }
+}
