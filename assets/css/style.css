@@ -361,7 +361,15 @@ footer{
     justify-content: space-between;
     padding: 0px 40px;
   }
+
+  .content .list-menu{
+    display: none;
+  }
+
   .itens-cardapio{
     grid-template-columns: repeat(2, minmax(50px, 350px));
+  }
+  .itens-cardapio .info h4{
+    margin-left: 12rem;
   }
 }
