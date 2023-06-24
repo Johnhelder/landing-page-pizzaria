@@ -366,6 +366,19 @@ footer{
     display: none;
   }
 
+  .one, .two, .three{
+    width: 80%;
+    height: 2px;
+    background-color: #fff;
+    margin: 6px auto;
+    transition-duration: 0.5s;
+  }
+
+  .menu-toggle{
+    width: 30px;
+    height: 30px;
+  }
+
   .itens-cardapio{
     grid-template-columns: repeat(2, minmax(50px, 350px));
   }
