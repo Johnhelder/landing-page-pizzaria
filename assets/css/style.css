@@ -423,6 +423,18 @@ footer{
     font-size: 2rem;
   }
 
+  .content.on .menu-toggle .two{
+    opacity: 0;
+  }
+
+  .content.on .menu-toggle .one{
+    transform: rotate(45deg) translate(5px, -8px);
+  }
+
+  .content.on .menu-toggle .three{
+    transform: rotate(-45deg) translate(20px, -6px);
+  }
+
   .itens-cardapio{
     grid-template-columns: repeat(2, minmax(50px, 350px));
   }
