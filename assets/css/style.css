@@ -452,3 +452,17 @@ footer{
     margin: 1rem;
   }
 }
+
+@media(max-width: 600px){
+  .conteudo-princiapl h1{
+    width: 500px;
+    text-align: center;
+    font-size: 4rem;
+  }
+  .conteudo-princiapl h2{
+    font-size: 2rem;
+  }
+  .itens-cardapio{
+    grid-template-columns: repeat(auto-fit, minmax(50px, 350px));
+  }
+}
