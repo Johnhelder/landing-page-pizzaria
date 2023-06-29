@@ -441,4 +441,14 @@ footer{
   .itens-cardapio .info h4{
     margin-left: 12rem;
   }
+
+  .contatos-secao{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .contatos-secao div{
+    margin: 1rem;
+  }
 }
