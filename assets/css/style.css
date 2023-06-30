@@ -465,4 +465,18 @@ footer{
   .itens-cardapio{
     grid-template-columns: repeat(auto-fit, minmax(50px, 350px));
   }
+  .sobre-nos img{
+    width: 400px;
+    height: 250px;
+    margin-left: 10px;
+  }
+
+  .sobre-nos p{
+    text-align: center;
+    width: 400px;
+  }
+
+  .contatos-secao{
+    width: 300px;
+  }
 }
