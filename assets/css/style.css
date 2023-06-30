@@ -480,3 +480,26 @@ footer{
     width: 300px;
   }
 }
+
+@media(max-width: 50px) {
+  .btn{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+  }
+  .btn button{
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .conteudo-princiapl h1{
+    width: 350px;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .conteudo-princiapl h2{
+    width: 200px;
+    font-size: 2rem;
+    text-align: center;
+  }
+}
