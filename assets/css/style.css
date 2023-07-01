@@ -481,7 +481,7 @@ footer{
   }
 }
 
-@media(max-width: 50px) {
+@media(max-width: 500px) {
   .btn{
     flex-direction: column;
     justify-content: center;
@@ -501,5 +501,26 @@ footer{
     width: 200px;
     font-size: 2rem;
     text-align: center;
+  }
+}
+
+@media(max-width: 395px){
+  .sobre-nos img{
+    width: 265px;
+    height: auto;
+    margin-left: 10px;
+  }
+  .conteudosobre p{
+    text-align: center;
+    width: 250px;
+  }
+  .itens-cardapio{
+    width: 50%;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 350px));
+  }
+  .itens-cardapio img{
+    width: 80%;
+    height: auto;
   }
 }
